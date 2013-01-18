@@ -1,0 +1,22 @@
+alias wget="curl -O"
+alias sha1='openssl sha1'
+
+export DYLD_LIBRARY_PATH=/usr/local/mysql/lib/
+
+alias easy_install="/opt/local/bin/easy_install-2.7"
+
+# Android
+PATH="/android-sdk/macosx/tools:${PATH}"
+PATH="/android-sdk-macosx/platform-tools:${PATH}"
+export PATH
+
+# macports
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+
+# ec2
+export EC2_HOME=/Users/Richie/aws/ec2-api-tools-1.6.3.1
+export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home
+export AWS_ELB_HOME=/Users/Richie/aws/ElasticLoadBalancing-1.0.17.0
+export EC2_CERT=/Users/Richie/aws/X509Certificate_GovCloud.pem
+export EC2_PRIVATE_KEY=/Users/Richie/aws/PrivateKey_GovCloud.pem
+export EC2_URL=https://ec2.us-gov-west-1.amazonaws.com
